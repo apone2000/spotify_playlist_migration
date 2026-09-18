@@ -1,0 +1,4 @@
+# 2.26.0 is the first spotipy release that uses Spotify's February 2026 endpoints
+# (/me/library, /playlists/{id}/items, POST /me/playlists).
+spotipy==2.26.0
+requests==2.32.5

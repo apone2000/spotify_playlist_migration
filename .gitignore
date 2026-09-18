@@ -1,0 +1,13 @@
+# Spotify app credentials
+.env
+# OAuth tokens (spotipy caches, one per account)
+.cache-*
+# Migration progress
+.migrate-state.json
+.migrate-state.json.tmp
+
+.venv/
+__pycache__/
+# Reports contain account names, user IDs and playlist names
+migration-report.md
+verify-report.md
